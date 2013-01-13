@@ -1,0 +1,18 @@
+%%-*- mode: erlang -*-
+{application, raven_management,
+ [
+  {description, "raven_management"},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets,
+                  crypto,
+                  mochiweb,
+                  webmachine
+                 ]},
+  {mod, { raven_management_app, []}},
+  {env, []}
+ ]}.
